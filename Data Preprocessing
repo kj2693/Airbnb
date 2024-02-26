@@ -20,6 +20,8 @@ This 'Date 'column was converted to a 'DateTime' object and transformed into the
 
 In our data analysis process, we've taken several important steps. We've filled in missing values in numerical columns and used the most common value for missing data in categorical columns. To ensure accurate results, we've removed duplicate rows and irrelevant columns. We've also added a new 'Prev Quarter' column based on the 'Quarter' column for added context. Lastly, we've transformed the 'Date' column, making it more useful by creating new 'Year,' 'Month,' and 'Quarter' columns. These steps have improved the quality and relevance of our data for analysis.
 
+
+
 The heatmap shows the correlation between revenue and key variables such as average price for booked days, average listed price for available days, maximum guests, available days, and bedrooms
 
 
