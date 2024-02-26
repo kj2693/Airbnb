@@ -1,0 +1,45 @@
+Data Preprocessing steps and Transformations 
+
+Identifying Column Types: 
+Separation of the columns into numerical and categorical types
+
+Dropping irrelevant Columns: 
+Multiple columns were dropped that were not relevant to our study
+
+Handling Missing Values: - 
+Numerical Columns: Missing values in numerical columns are filled with their representative values. 
+Categorical Columns: Missing values in categorical columns are filled with the mode 
+
+Data Processing: 
+A new column named 'Prev Quarter' is created. For each row, if the 'Quarter' is 4, it sets 'Prev Quarter' to 1; otherwise, it decrements the 'Quarter' by 1.
+
+Dropping Duplicate Rows: To avoid skewness in the data, duplicate rows are removed.
+
+Data Transformation: 
+This 'Date 'column was converted to a 'DateTime' object and transformed into the 'Year’, 'Month’ & ‘Quarter' columns
+
+In our data analysis process, we've taken several important steps. We've filled in missing values in numerical columns and used the most common value for missing data in categorical columns. To ensure accurate results, we've removed duplicate rows and irrelevant columns. We've also added a new 'Prev Quarter' column based on the 'Quarter' column for added context. Lastly, we've transformed the 'Date' column, making it more useful by creating new 'Year,' 'Month,' and 'Quarter' columns. These steps have improved the quality and relevance of our data for analysis.
+
+The heatmap shows the correlation between revenue and key variables such as average price for booked days, average listed price for available days, maximum guests, available days, and bedrooms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
